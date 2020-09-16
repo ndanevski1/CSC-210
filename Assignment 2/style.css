@@ -1,0 +1,41 @@
+body {
+	background-color: #FFE4E1;
+}
+
+p {
+	color: #168294;
+}
+
+h2 {
+	font-style: italic;
+}
+
+img {
+	width: auto;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	font-weight: bold;
+	color: #156875;
+}
+
+li span { 
+	font-weight: normal; 
+}
+
+div.images {
+	display: block;
+}
+
+div.images img {
+	display: block;
+	float: left;
+}
+
+div.clear {
+	clear: both;
+}
