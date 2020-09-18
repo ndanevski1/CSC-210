@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	showHideItems("showIngredients", "ingredientsList");
 	showHideItems("showSteps", "stepsList");
-	// hideAllItems("hideIngredients", "ingredientsList");
-	// hideAllItems("hideSteps", "stepsList");
 
 });
 
