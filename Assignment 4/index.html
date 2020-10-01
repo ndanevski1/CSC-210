@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>How to Make Burek</title>
+</head>
+<body>
+	<!-- source: https://www.thespruceeats.com/serbian-meat-burek-recipe-1135625 -->
+	<h1> Burek</h1>
+	<h2>General Information</h2>
+	<p>
+		Burek is a traditional food in Southeastern Europe. Originally it comes from the Ottoman Empire and has spread all over the Balkan peninsula. It has different versions amongst all of the Balkan countries, however the most popular version contains contains ground beef.
+	</p>
+	<p>
+		The traditional recipe for burek is made with dough and ground beef (or a combination of beef, pork, and lamb) in a circular pan. The final product is usually divided into "quarters" or "eights" which is considered as a normal dose. It is one of the most popular breakfast foods on the Balkan. To read more, click <a href="https://www.thespruceeats.com/serbian-meat-burek-recipe-1135625"> here. </a>
+	</p>
+	<ul>
+		<li>Total time: <span>75 mins</span></li>
+		<li>Prep: <span>30 mins</span></li>
+		<li>Cook: <span>45 mins</span></li>
+		<li>Servings: <span>8 to 10</span></li>
+	</ul>
+	<!-- source for the following part: https://jsfiddle.net/vdeep/csnmv28n/ -->
+	<div class = "images">
+		<img src="images/burek1.jpg" alt="Burek">
+		<img src="images/burek2.jpg" alt="Burek">
+		<img src="images/burek3.jpg" alt="Burek">
+		<div class="clear"></div>
+	</div>
+	<h2>Ingredients</h2>
+	<button id="showIngredients">Show next ingredient!</button>
+	<ul id="ingredientsList">
+		<li><span>1 cup finely chopped onion</span></li>
+		<li><span>1 1/2 pounds ground beef chuck or a combination of beef, pork, and lamb</span></li>
+		<li><span>1 cup chopped parsley</span></li>
+		<li><span>1 tablespoon salt</span></li>
+		<li><span>1/2 teaspoon pepper (or to taste)</span></li>
+		<li><span>5 tablespoons vegetable, sunflower or pumpkin seed oil</span></li>
+		<li><span>1 (1-pound) package thawed #7 filo dough</span></li>
+		<li><span>6 large beaten eggs</span></li>
+		<li><span>1 1/2 cups yogurt</span></li>
+		<li><span>1 1/2 cups soda water</span></li>
+	</ul>
+	<form id="addIngredient" method="POST" action="">
+		<label for="addIngrText">Add this ingredient: </label>
+		<input type="text" value="" id="addIngrText">
+		<input type="submit" value="Add this ingredient!" id="addIngrBtn">
+	</form>
+	<h2>Steps to Make It</h2>
+	<button id="showSteps">Show next step!</button>
+	<ol id="stepsList">
+		<li><span>In a large skillet, saute onion and ground chuck until meat is no longer pink and the onions are translucent. Drain in a colander. Return meat-onion mixture to skillet and add parsley, salt, and pepper, and cook for 1 minute, mixing thoroughly. Remove from heat and let cool to room temperature.</span></li>
+		<li><span>Lightly coat a 9" x 13" pan with cooking spray. Separate filo dough into two piles (about 14 sheets each) and keep covered so they don't dry out. Half will go on the bottom of the pie and half will go on the top.</span></li>
+		<li><span>Place 2 sheets in prepared pan and brush lightly with oil, folding in any overhanging edges. Add 2 more and brush with oil. Continue until you've used one pile of filo.</span></li>
+		<li><span>Spread the cooled ground chuck mixture evenly over the filo and to the ends. Begin covering the meat with the remaining filo, again using 2 sheets at a time and brushing with oil.</span></li>
+		<li><span>Brush entire top lightly with oil. Using a serrated knife and a sawing motion, cut burek all the way to the bottom into 12 squares.</span></li>
+		<li><span>In a medium bowl, mix eggs with yogurt and soda water. Pour over burek. Cover with plastic wrap and refrigerate 2 hours. Pre-heat oven to 350 F. Bake 45 minutes or until golden brown. Cool slightly before serving.</span></li>
+		<li><span>This makes a great luncheon course, entree or appetizer and freezes well cooked or uncooked.</span></li>
+	</ol>
+	<form id="addStep" method="POST" action="">
+		<label for="addStepText">Add this step: </label>
+		<input type="text" value="" id="addStepText">
+		<input type="submit" value="Add this step!" id="addStepBtn">
+	</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
